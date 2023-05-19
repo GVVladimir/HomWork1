@@ -1,0 +1,128 @@
+@media (max-width: 1440px) {
+
+    .center {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+}
+
+@media(max-width: 1334px) {
+    .center {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1322px) {
+    .first {
+
+        &__game {
+            display: flex;
+            flex-direction: column;
+
+            &_block {
+                width: none;
+                padding-bottom: 64px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1262px) {
+    .center {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+
+@media (max-width: 1244px) {
+    .choice {
+
+        
+        &__all {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 132px;
+            
+        }
+
+        &__block {
+            &_foto {
+                width: 500px;
+                
+            }
+        }
+    }
+}
+
+@media(max-width: 700px) {
+    .header {
+        &__block {
+           
+            &_ferst {
+                font-size: 32px;
+                line-height: 39px;
+            }
+        }
+    }
+
+    .choice {
+
+        &__all {
+            gap: 32px;
+        }
+        &__block {
+            &_foto {
+                width: 343px;
+            }
+        }
+    }
+}
+
+@media (max-width: 610px) {
+    .first {
+        &__game {
+
+            &_block {
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+            &_head {
+                text-align: center;
+                font-size: 32px;
+                line-height: 39px;
+            }
+
+            &_text {
+                width: 343px;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+    }
+
+    .header {
+        &__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+
+            &_ferst {
+                text-align: center;
+            }
+
+            &_text {
+                text-align: center;
+            }
+
+        }
+    }
+}

@@ -20,49 +20,31 @@
 // (d > 100 || c > 100) ? console.log('Верно') : console.log('Неверно');
 
 // задание 4
-// let a = 2;
-// let b = 3;
+// let a = '2';
+// let b = '3';
 
-//     console.log(a+b);
+//     console.log(Number(a+b));
 
 // задание 5
 // let monthNumber = prompt('Введите месяц');
-// monthNumber = monthNumber.toLocaleLowerCase();
-
 // switch (monthNumber) {
 //     case '1':
-//    console.log('Зима');        
-//     break; 
 //     case '2':
-//     console.log('Зима');        
-//     break;
 //     case '12':
 //     console.log('Зима');        
 //     break;
 //     case '3':
-//     console.log('Весна');        
-//     break; 
 //     case '4':
-//     console.log('Весна');
-//     break;
 //     case '5':
 //     console.log('Весна');
 //     break;
 //     case '6':
-//     console.log('Лето');        
-//     break; 
 //     case '7':
-//     console.log('Лето');
-//     break;
 //     case '8':
 //     console.log('Лето');
 //     break;   
 //     case '9':
-//     console.log('Осень');        
-//     break; 
 //     case '10':
-//     console.log('Весна');
-//     break;
 //     case '11':
 //     console.log('весна') ;  
 //     default:
@@ -73,8 +55,10 @@
 // задание 7
 // let randomNumber = Number(prompt('Пожалуйста, введите любое число'));
 // randomNumber = Number(randomNumber);
-
-// if(randomNumber % 2 === 0) {
+// if (isNaN(randomNumber)) {
+//     console.log('Нужно ввести число.')
+// }
+// else if(randomNumber % 2 === 0) {
 //     console.log('Число четное!');
 // } else {
 //     console.log('Нечетное число!')
