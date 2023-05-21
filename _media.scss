@@ -83,6 +83,8 @@
 }
 
 @media (max-width: 610px) {
+
+    
     .first {
         &__game {
 
@@ -90,6 +92,7 @@
           display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         }
         
             &_head {
@@ -103,6 +106,10 @@
                 font-size: 14px;
                 line-height: 22px;
                 text-align: center;
+            }
+
+            &_foto {
+                width: 100%;
             }
         }
     }
