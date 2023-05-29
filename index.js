@@ -1,79 +1,122 @@
-// let a = 10;
+// задание 1
+// let minNumber = (a, b) => {
+//     if (a > b){
+//         console.log(b);
+//     } else {
+//         console.log(a)
+//     }
+   // }; 
+//  minNumber(4, 5);
 
-// alert (a);
+// задание 2
+// const num = (a) => a % 2 === 0 ? console.log('Число четное') : console.log('Число нечетное');
+// num(2);
 
-// a = 20;
+// задание 3
 
-// alert (a);
-
-// let ferstIphone = '9 января 2007 года';
-// alert (`Создание первого iphone ${ferstIphone}`);
-
-// let docJs = 'Брендан Эйх';
-// alert (`Создатель языка JavaScript - ${docJs}!`);
-
-// let ferst = 10;
-// let second = 2;
-
-// alert (ferst + second);
-// alert (ferst - second);
-// alert (ferst * second);
-// alert (ferst / second);
-
-// let c = 2;
-// let result = c ** 5;
-// alert (result);
-
-
-// a = 9;
-// let b = 2;
-
-// alert(a % b);
-
-// let num = 1;
-// num += 5;
-// num -= 3;
-// num *= 7;
-// num /= 3;
-// num ++ ;
-// num -- ;
-// alert(num);
-
-// let age = prompt(`Сколько Вам лет`);
-// alert(age);
-
-// let user = {
-//     age: Namber(40), 
-//     name: 'Vladimir',
-//     isAdmin: true
+// function squareNum(a) {
+//     console.log(squareNum(5));
 // }
-// alert(prompt(user));
+// 
 
-
-
-// let user = {
-//     age: 40, 
-//     name: 'Vladimir',
-//     isAdmin: true,
-//     "city of residence": true
+// function squareNum(a) {
+    //     return a*a;
 // }
 
-// let user = {
-//     gender: 'man' , 
-//     name: 'Vladimir',
-//     isAdmin: true,
-//     "city of residence": true
-// }
+// хадание 4
 
-// delete user["city of residence"];
+// let userAge = prompt('Сколько вам лет?')
 
-// let info = prompt("Какую информацию хотите узнать о пользователе?")
+// function hellowUser(userAge) {
+//     if(userAge < 0){
+//         alert ('Вы ввели неправильное значение');
+//     } else if (userAge > 12){
+//         alert ('Добро пожаловать!');
+//     } else {
+//         alert ('Привет друг')
+//     }
+    
+// };
+// hellowUser(userAge);
 
-// alert(user.info);
+// задание 5
 
-let name = prompt('Ваше имя?');
-alert('Привет: ' + name + "!");
+// function twoNum (a, b) {
+//     if(isNaN(a, b)){
+//         return 'Одно или оба значения не являются числом';
+//     } 
+//         return a * b;
+//     };
+  
+//  console.log(twoNum('o', 8));
+
+// задание 6
+
+// let cube = prompt('Введите число')
+
+// function cubeNum(a) {
+//     if(isNaN(a)){
+//         return'Переданный параметр не является числом';
+//     } else { 
+             
+//         return `a в кубе равняется ${Math.pow(a, 3)}`;
+        
+//     }
+// };
+// console.log(cubeNum(cube));
+
+// задание 7
+// const circle1 = {
+//     radius: 1,
+//     getArea: function(){
+//         console.log(`Радиус circle1 равен ${2 * Math.PI * Math.pow(circle1.radius, 2)}`);
+//     },
+//     getPerimeter: function(){
+//         console.log(`Периметр circle1 равен ${Math.PI * Math.pow(circle1.radius, 2)}`)
+//     }
+    
+// }; 
+//         circle1.getArea();
+//         circle1.getPerimeter();
+
+//     const circle2 = {
+//         radius: 7,
+//         getArea: function(){
+//             console.log(`Радиус circle2 равен ${2 * Math.PI * Math.pow(circle2.radius, 2)}`);
+//         },
+//         getPerimeter: function(){
+//             console.log(`Периметр circle2 равен ${Math.pow(circle2.radius, 2)}`)
+//         }
+//     }; 
+//         circle2.getArea();;
+//         circle2.getPerimeter();
+
+
+// задание 8
+//     function timeYear(){
+
+//         let manth = prompt('Введите номер месяца');
+
+//     if (manth == 12 || manth == 1 || manth == 2){
+//         alert ('Время года зима');    
+//     } else if ( manth == 3 || manth == 4 || manth == 5){
+//         alert('Время года Весна');
+//     } else if (manth == 6 || manth == 7 || manth == 8){
+//         alert ('Время года Лето');
+//     } else if (manth == 9 || manth == 10 || manth == 11){
+//         alert ('Время года Осень');
+//     } else {
+//         alert ('Нет такого месяца и времени года...');
+//     }
+
+// };
+// timeYear();
+
+ 
+
+
+	
 
 
 
-
+ 
