@@ -93,12 +93,10 @@
 
 
 // задание 8
-      
-    
-
     function timeYear(){
-        let manth = prompt('Введите номер месяца');
         
+        let manth = prompt('Введите номер месяца');
+
     if (manth == 12 || manth == 1 || manth == 2){
         alert ('Время года зима');    
     } else if ( manth == 3 || manth == 4 || manth == 5){
