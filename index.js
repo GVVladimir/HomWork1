@@ -94,7 +94,7 @@
 
 // задание 8
     function timeYear(){
-        
+
         let manth = prompt('Введите номер месяца');
 
     if (manth == 12 || manth == 1 || manth == 2){
@@ -109,7 +109,7 @@
         alert ('Нет такого месяца и времени года...');
     }
 
-}
+};
 timeYear();
 
  
