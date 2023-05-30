@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ body {
         color: #ffffff;
         font-size: 18px;
         line-height: 22px;
-        transition: all 0.3s;
+        
 
         &:hover {
             background-color: #EB443F;
@@ -66,48 +66,107 @@ body {
 
 .choice {
     
-        height: 556px;
+    padding-bottom: 128px;
     padding-top: 128px;
     background-color: #000915;
     
-    &__allBlock {
-        position: relative;
-    }
+  
 
     &__all {
         display: flex;
-        justify-content: space-between;
         gap: 32px;
+        flex-wrap: wrap;
     }
 
     &__block {
-        width: 378px;
-        height: 300px;
         
+        height: 300px;
+        position: relative;
         border-radius: 16px;
         border: rgba(39, 1, 15, 0)  0%
         #001944  100%;
 
-        &_foto {
+        &_foto {            
             
-            position: absolute;
             font-size:  100%;
+            &:hover {
+                border: 3px solid #44D2FF;
+                border-radius: 16px;
+                box-sizing: border-box;
+            }
         }
     
         &_text {
             position:absolute;
-           margin-left: 32px;
-           margin-top: 236px;
+           bottom: 32px;
+           left: 32px;
            font-weight: 600;
             width: 84px;
             height: 31px;
             font-size: 24px;
             line-height: 32px;
             color: #ffffff;
+           
         }
     }
     
 }
 
+.first {
+    background-color: #000915;
+    
 
+    &__game {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 233px;
+        padding-bottom: 233px;
+    
+
+        &_block {
+            width: 584px;
+                    
+        }
+
+        &_head {
+            color: #ffffff;
+            font-size: 48px;
+        }
+
+        &_text {
+            font-size: 18px;
+            color: #ffffff;
+            padding-top: 32px;
+        }
+
+        &_foto {
+            width: 379px;
+            height: 333px;
+            object-fit: contain;
+        }
+
+        &_btn {
+            margin-top: 44px;
+            width: 234px;
+            height: 49px;
+            border: none;
+            border-radius: 30px;
+            background-color: #9C0332;
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 22px;
+            
+            &:hover {
+                background-color: #EB443F;
+            }
+        }
+}
+}
+
+
+
+@import 'media'
 
