@@ -91,26 +91,48 @@
 //         circle2.getArea();;
 //         circle2.getPerimeter();
 
+// let d = [1, 9, 8, 5, 8, 4];
 
-// задание 8
-//     function timeYear(){
+// d = d.split('');
+// console.log(d);
 
-//         let manth = prompt('Введите номер месяца');
+// console.log(d.pop());
+// console.log(d);
 
-//     if (manth == 12 || manth == 1 || manth == 2){
-//         alert ('Время года зима');    
-//     } else if ( manth == 3 || manth == 4 || manth == 5){
-//         alert('Время года Весна');
-//     } else if (manth == 6 || manth == 7 || manth == 8){
-//         alert ('Время года Лето');
-//     } else if (manth == 9 || manth == 10 || manth == 11){
-//         alert ('Время года Осень');
-//     } else {
-//        alert ('Нет такого месяца и времени года...');
-//     }
+// d.push(6);
+// console.log(d);
 
+// d = d.sort();
+// console.log(d);
+
+// d = d.join(' ');
+// console.log(d);
+
+// for(let i = 0; i < d.length; i++){
+//     if (d[i] == 8) 
+//     break;
+//     console.log(d[i]);
+// }
+
+// let a =  '98678576'
+// console.log(a);
+
+// a = a.split('');
+// console.log(a);
+
+// let b = a.includes('5');
+// console.log(b);
+
+// let arrSum = [3, 4, 5, 6];
+
+// const sum = (a, b, ...rest) => {
+//     let result = a + b;
+//     console.log(result);
+//     console.log(rest);
 // };
-// timeYear();
+
+// console.log(sum(...arrSum));
+
 
 
  
