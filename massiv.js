@@ -106,9 +106,6 @@
 // console.log(arrLength(arr));
 
 // задание 13
-
 // let array = [-1, 0, 5, -10, 56]
-
 // const filterPositive = array => array.filter(i => i < 0);
-    
 // console.log(filterPositive(array));
