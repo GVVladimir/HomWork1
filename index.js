@@ -1,79 +1,145 @@
-// let a = 10;
+// задание 1
+// let minNumber = (a, b) => {
+//     if (a > b){
+//         console.log(b);
+//     } else {
+//         console.log(a)
+//     }
+   // }; 
+//  minNumber(4, 5);
 
-// alert (a);
+// задание 2
+// const num = (a) => a % 2 === 0 ? console.log('Число четное') : console.log('Число нечетное');
+// num(2);
 
-// a = 20;
+// задание 3
 
-// alert (a);
-
-// let ferstIphone = '9 января 2007 года';
-// alert (`Создание первого iphone ${ferstIphone}`);
-
-// let docJs = 'Брендан Эйх';
-// alert (`Создатель языка JavaScript - ${docJs}!`);
-
-// let ferst = 10;
-// let second = 2;
-
-// alert (ferst + second);
-// alert (ferst - second);
-// alert (ferst * second);
-// alert (ferst / second);
-
-// let c = 2;
-// let result = c ** 5;
-// alert (result);
-
-
-// a = 9;
-// let b = 2;
-
-// alert(a % b);
-
-// let num = 1;
-// num += 5;
-// num -= 3;
-// num *= 7;
-// num /= 3;
-// num ++ ;
-// num -- ;
-// alert(num);
-
-// let age = prompt(`Сколько Вам лет`);
-// alert(age);
-
-// let user = {
-//     age: Namber(40), 
-//     name: 'Vladimir',
-//     isAdmin: true
+// function squareNum(a) {
+//     console.log(squareNum(5));
 // }
-// alert(prompt(user));
+// 
 
-
-
-// let user = {
-//     age: 40, 
-//     name: 'Vladimir',
-//     isAdmin: true,
-//     "city of residence": true
+// function squareNum(a) {
+    //     return a*a;
 // }
 
-// let user = {
-//     gender: 'man' , 
-//     name: 'Vladimir',
-//     isAdmin: true,
-//     "city of residence": true
+// хадание 4
+
+// let userAge = prompt('Сколько вам лет?')
+
+// function hellowUser(userAge) {
+//     if(userAge < 0){
+//         alert ('Вы ввели неправильное значение');
+//     } else if (userAge > 12){
+//         alert ('Добро пожаловать!');
+//     } else {
+//         alert ('Привет друг')
+//     }
+    
+// };
+// hellowUser(userAge);
+
+// задание 5
+
+// function twoNum (a, b) {
+//     if(isNaN(a, b)){
+//         return 'Одно или оба значения не являются числом';
+//     } 
+//         return a * b;
+//     };
+  
+//  console.log(twoNum('o', 8));
+
+// задание 6
+
+// let cube = prompt('Введите число')
+
+// function cubeNum(a) {
+//     if(isNaN(a)){
+//         return'Переданный параметр не является числом';
+//     } else { 
+             
+//         return `a в кубе равняется ${Math.pow(a, 3)}`;
+        
+//     }
+// };
+// console.log(cubeNum(cube));
+
+// задание 7
+// const circle1 = {
+//     radius: 1,
+//     getArea: function(){
+//         console.log(`Радиус circle1 равен ${2 * Math.PI * Math.pow(circle1.radius, 2)}`);
+//     },
+//     getPerimeter: function(){
+//         console.log(`Периметр circle1 равен ${Math.PI * Math.pow(circle1.radius, 2)}`)
+//     }
+    
+// }; 
+//         circle1.getArea();
+//         circle1.getPerimeter();
+
+//     const circle2 = {
+//         radius: 7,
+//         getArea: function(){
+//             console.log(`Радиус circle2 равен ${2 * Math.PI * Math.pow(circle2.radius, 2)}`);
+//         },
+//         getPerimeter: function(){
+//             console.log(`Периметр circle2 равен ${Math.pow(circle2.radius, 2)}`)
+//         }
+//     }; 
+//         circle2.getArea();;
+//         circle2.getPerimeter();
+
+// let d = [1, 9, 8, 5, 8, 4];
+
+// d = d.split('');
+// console.log(d);
+
+// console.log(d.pop());
+// console.log(d);
+
+// d.push(6);
+// console.log(d);
+
+// d = d.sort();
+// console.log(d);
+
+// d = d.join(' ');
+// console.log(d);
+
+// for(let i = 0; i < d.length; i++){
+//     if (d[i] == 8) 
+//     break;
+//     console.log(d[i]);
 // }
 
-// delete user["city of residence"];
+// let a =  '98678576'
+// console.log(a);
 
-// let info = prompt("Какую информацию хотите узнать о пользователе?")
+// a = a.split('');
+// console.log(a);
 
-// alert(user.info);
+// let b = a.includes('5');
+// console.log(b);
 
-let name = prompt('Ваше имя?');
-alert('Привет: ' + name + "!");
+// let arrSum = [3, 4, 5, 6];
+
+// const sum = (a, b, ...rest) => {
+//     let result = a + b;
+//     console.log(result);
+//     console.log(rest);
+// };
+
+// console.log(sum(...arrSum));
 
 
 
+ 
 
+
+	
+
+
+
+ 
