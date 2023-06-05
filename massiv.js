@@ -109,3 +109,14 @@
 // let array = [-1, 0, 5, -10, 56]
 // const filterPositive = array => array.filter(i => i < 0);
 // console.log(filterPositive(array));
+// let arr = [];
+
+// function filtePositiv () {
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] < 0){
+//             arr.push(array[i]);
+//         }
+//     } console.log(arr);
+    
+// }filtePositiv ()
+
