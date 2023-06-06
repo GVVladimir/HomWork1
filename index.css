@@ -67,12 +67,15 @@ body {
   border-radius: 16px;
   border: rgba(39, 1, 15, 0) 0% #001944 100%;
 }
-.choice__block:hover {
-  border: 3px solid #44D2FF;
-  box-sizing: border-box;
-}
 .choice__block_foto {
   width: 100%;
+  box-sizing: border-box;
+}
+.choice__block_foto:hover {
+  outline: 3px solid #44D2FF;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 0px;
 }
 .choice__block_text {
   position: absolute;
@@ -224,7 +227,7 @@ body {
     gap: 132px;
   }
   .choice__block_foto {
-    width: 500px;
+    width: 100%;
   }
 }
 @media (max-width: 700px) {
